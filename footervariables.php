@@ -16,6 +16,7 @@ function footer() {
         ]
     ];
 
+    
     foreach ($footers as $footer) {
         echo '<div class="col-md-6 col-lg-3">
                 <div class="info_post">
