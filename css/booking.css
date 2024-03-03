@@ -1,0 +1,17 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #bb1ebdee;
+}
+
+.your-info{
+    width: 1000px;
+    height: 600px;
+    color: black;
+    margin-top: 70px;
+    margin-left: 200px;
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    filter: drop-shadow(50px 30px 50px black);
+}

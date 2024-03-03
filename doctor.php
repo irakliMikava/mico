@@ -140,7 +140,8 @@
       <div class="carousel-wrap ">
         <div class="owl-carousel team_carousel">
           <?php
-         <?php foreach ($doctors as $doctor): ?>
+           foreach ($doctors as $doctor): 
+           ?>
           <div class="item">
             <div class="box">
               <div class="img-box">
