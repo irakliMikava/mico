@@ -1,4 +1,4 @@
-<h2>Reservation accepted</h2>
+<h2>Request recived</h2>
 
 <?php
     if(isset($_POST["submit"]))
