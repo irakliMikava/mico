@@ -1,4 +1,4 @@
-<h2>Request recived</h2>
+<h2>Request received</h2>
 
 <?php
     if(isset($_POST["submit"]))
