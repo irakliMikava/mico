@@ -1,5 +1,5 @@
 <?php
- 
+//   iraklis-section
  $doctors = [
     [
     "name" => "Hennry",
@@ -40,26 +40,29 @@
 
 ];
 
+
 foreach ($doctors as $doctor) {
+    // Start of HTML content for each doctor
     ?>
     <div class="item">
         <div class="box">
             <div class="img-box">
+                <!-- Displaying the doctor's image -->
                 <img src="<?php echo $doctor['image']; ?>" alt="image" />
             </div>
             <div class="detail-box">
-                <h5>
-                    <?php echo $doctor['name'];?>
-                </h5>
-                <h6>
-                    <?php echo $doctor ['qualification']; ?>
-                </h6>
+                <!-- Displaying the doctor's name -->
+                <h5><?php echo $doctor['name']; ?></h5>
+                <!-- Displaying the doctor's qualification -->
+                <h6><?php echo $doctor['qualification']; ?></h6>
                 <div class="social_box">
                     <?php
+                    // Looping through the doctor's social media links
                     foreach ($doctor['social'] as $socialPlatform => $socialLink) {
                         ?>
+                        <!-- Displaying each social media icon with its link -->
                         <a href="<?php echo $socialLink; ?>">
-                        <i class= "fa fa-<?php echo $socialPlatform; ?>" aria-hidden= "true"></i>
+                            <i class="fa fa-<?php echo $socialPlatform; ?>" aria-hidden="true"></i>
                         </a>
                         <?php
                     }
@@ -69,4 +72,5 @@ foreach ($doctors as $doctor) {
         </div>
     </div>
     <?php
+    // End of HTML content for each doctor
 }

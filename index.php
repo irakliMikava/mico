@@ -42,7 +42,7 @@
     require "testimonial-function.php";
     require "subscribe-function.php";
     require "footer-function.php";
-    require "adress-section.php";
+    require "adress-function.php";
     require "link-section.php";
     require "posts-news.php";
   ?>

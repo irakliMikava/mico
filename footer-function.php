@@ -8,17 +8,22 @@
             'template' => "Free Html Templates",
         ]
     ];
-    
-    function printFooter($rights) : void {
-
-        foreach ($rights as $right) {
-            echo '<footer class="footer_section">
-                    <div class="container">
+    ?>
+    <?php
+/**
+ * Prints the footer section with the provided rights information.
+ * @return void
+ */
+function printFooter($rights): void {
+    foreach ($rights as $right) {
+        echo '<footer class="footer_section">
+                <div class="container">
                     <p>
-                        ' . $right['copy'] .' <span id="' . $right['span'] .'"></span> ' . $right['text'] .'
-                        <a href="' . $right['link'] .'">' . $right['template'] .'</a>
+                        ' . $right['copy'] . ' <span id="' . $right['span'] . '"></span> ' . $right['text'] . '
+                        <a href="' . $right['link'] . '">' . $right['template'] . '</a>
                     </p>
-                    </div>
-                </footer>';
-        }
+                </div>
+            </footer>';
     }
+}
+?>

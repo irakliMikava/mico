@@ -5,7 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/mico-main/');
+	header('Location: '.$uri.'/mico-sub/');
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(

@@ -1,4 +1,5 @@
 <?php 
+      // lizikos-section
   $hospitalTreatementInfo=[
     [
     "image"=>"images/t1.png",

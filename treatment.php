@@ -37,11 +37,12 @@
   <?php
     require "header.php";
     require "hospitalTreatement.php";
-    require "subscribe-function.php";
-    require "adress-section.php";
+    require "subscribe.php";
+    require "adress-function.php";
     require "link-section.php";
-    require "posts-news.php";
+    require "posts.php";
     require "footer-function.php";
+    
   ?>
 
 </head>

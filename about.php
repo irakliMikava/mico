@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Micooo</title>
+  <title>Mico</title>
 
 
   <!-- bootstrap core css -->
@@ -41,7 +41,7 @@
     require "adress-section.php";
     require "link-section.php";
     require "posts-news.php";
-    require "footer-function.php";
+    require "footer-function.php"
   ?>
 
 </head>
